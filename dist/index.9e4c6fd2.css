@@ -3,4 +3,41 @@
   background: #333;
 }
 
+.header {
+  border: 2px solid #333;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+}
+
+.navItems > ul {
+  list-style: none;
+  display: flex;
+}
+
+.navItems > ul > li {
+  padding: 10px;
+}
+
+.logo {
+  height: 75px;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #333;
+  margin: 10px;
+  padding: 20px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.restaurantList {
+  flex-wrap: wrap;
+  display: flex;
+}
+
 /*# sourceMappingURL=index.9e4c6fd2.css.map */

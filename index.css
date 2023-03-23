@@ -2,3 +2,40 @@
   background: #333;
   color: #fff;
 }
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  border: 2px solid #333;
+  padding: 10px;
+}
+
+.navItems > ul {
+  list-style: none;
+  display: flex;
+}
+
+.navItems > ul > li {
+  padding: 10px;
+}
+
+.logo {
+  height: 75px;
+}
+
+.card {
+  width: 200px;
+  border: 1px solid #333;
+  padding: 20px;
+  margin: 10px;
+}
+
+.card > img {
+  width: 100%;
+}
+
+.restaurantList {
+  display: flex;
+  flex-wrap: wrap;
+}

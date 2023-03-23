@@ -1,21 +1,16 @@
 {
-  "name": "namaste-react",
+  "name": "namastereact",
   "version": "1.0.0",
-  "description": "This is a live course",
+  "description": "Namaste react live course",
   "scripts": {
-    "test": "jest"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Abhishek7487/namasteReact-liveCourse.git"
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "author": "Abhishek Patil",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Abhishek7487/namasteReact-liveCourse/issues"
-  },
-  "homepage": "https://github.com/Abhishek7487/namasteReact-liveCourse#readme",
   "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
     "parcel": "^2.8.3",
     "process": "^0.11.10"
   },
@@ -24,6 +19,6 @@
     "react-dom": "^18.2.0"
   },
   "browserslist": [
-    "last 2 versions"
+    "last 2 Chrome versions"
   ]
 }
